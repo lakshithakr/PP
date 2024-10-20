@@ -25,8 +25,8 @@ function WorkExperience() {
         {
             company:'Sampath Bank PLC',
             position:'Research and Development Internship',
-            des:'At Sampath Bank PLC, I am interning as a Research and Development Intern, currently working on a lead generation project. Using data analysis and machine learning, we aim to identify potential customers most likely to benefit from the banks offerings, optimizing marketing strategies for growth.',
-            year:'2023-December to 2024-May',
+            des:'Led a machine learning project at Sampath Bank PLC to identify eligible users for theVISHWA mobile banking application. Analyzed customer data using machine learningtechniques to enhance targeting and drive adoption of the mobile banking platform,improving lead generation efficiency',
+            year:'2023-December to 2024-June',
             techskills:[
                 {
                     techname:'Machine Learning'
@@ -36,6 +36,9 @@ function WorkExperience() {
                 },
                 {
                     techname:'Streamlit'
+                },
+                {
+                    techname:'Data Visualization'
                 },
             ]
         },

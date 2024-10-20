@@ -1,0 +1,48 @@
+/* NavBar.css */
+.navbar {
+    height: 50px;
+    position: fixed; /* Makes the navbar fixed */
+    top: 0; /* Aligns it to the top */
+    left: 0; /* Aligns it to the left */
+    width: 100%; /* Full width */
+    background-color: #333; /* Background color */
+    padding: 1rem; /* Padding for aesthetics */
+    z-index: 1000; /* Ensures it is above other content */
+  }
+  
+  .nav-list {
+    list-style: none; /* Removes bullets */
+    display: flex; /* Displays items in a row */
+    gap: 1.5rem; /* Spacing between items */
+  }
+  
+  .nav-list li {
+    color: white;
+    display: inline; /* Keeps list items inline */
+  }
+  
+  .nav-list a {
+    color: rgb(255, 255, 255); /* Text color */
+    text-decoration: none; /* Removes underline */
+    font-weight: bold; /* Makes text bold */
+  }
+  
+  .nav-list a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  /* Optional: Add padding to the body to prevent overlap with the fixed navbar */
+  /* body {
+    padding-top: 40px; 
+  } */
+
+.nav-item .active{
+    border-left: 2px solid yellow;
+    color: yellow;
+}
+
+@media (max-width:1000px) {
+    .slidebar{
+        display: none;
+    }
+}

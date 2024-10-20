@@ -17,10 +17,12 @@ function About(){
                         <span className='line'></span>
                     </div>
                     <p>
-                        I am a dedicated and ambitious computer science and engineering undergraduate with significant
-                        ability to learn new things quickly and passion for technology. I am passionate about finding
-                        solution with computer science concept and practical problem solving. Seeking for new
-                        opportunities that provide the space to learn, grow and gain more experience
+                    I am an undergraduate in Computer Science and Engineering, specializing in data science. I have
+                    gained practical experience through internships as a Data Scientist intern at Sampath Bank PLC.
+                    My work includes developing document-based question-answering systems, resume ranking
+                    solutions, and science MCQ projects using advanced models like RAG and LLMs. I am eager to
+                    leverage my skills to tackle real world challenges and explore emerging technologies in data science
+                    and AI.
                     </p>   
                 </div>
             </div>

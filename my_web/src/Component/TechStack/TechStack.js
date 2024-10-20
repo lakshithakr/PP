@@ -3,31 +3,20 @@ import './TechStack.css'
 function TechStack(){
     const data=[
         {
-            name: "Full Stack Developer"
+            name: "Machine Learning"
         },
-        {
-            name: "Node js"
-        },
-        {
-            name: "Javascript"
-        },
-        {
-            name: "React js"
-        },
-        {
-            name: "Express js"
-        },
+
         {
             name: "Python"
         },
         {
-            name: "Machine Learning"
+            name: "NLP"
         },
         {
             name: "SQL"
         },
         {
-            name: "NOSQL"
+            name: "PowerBI"
         },
         {
             name: "C"
@@ -36,8 +25,12 @@ function TechStack(){
             name: "C++"
         },
         {
-            name: "HTML/CSS"
+            name: "HTML/CSS/JS"
         },
+        {
+            name: "Wordpress"
+        },
+        
 
     ]
     const colors=[

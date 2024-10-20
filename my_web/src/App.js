@@ -10,11 +10,13 @@ import TechStack from './Component/TechStack/TechStack';
 import WorkExperience from './Component/WorkExperience/WorkExperience';
 import Project from './Component/Projects/Project';
 import NavbarMobile from './Component/Slidebar/NavbarMobile';
+import VerNavBar from './Component/VerNavBar/VerNavBar';
 function App() {
   return (
     <>
-    <NavbarMobile />
-    {/* <Slidebar /> */}
+    <VerNavBar/>
+    {/* <NavbarMobile />
+    <Slidebar /> */}
     <About />
     <WorkExperience />
     <TechStack />
