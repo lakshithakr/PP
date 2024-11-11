@@ -5,18 +5,20 @@ import About from './Component/About/About';
 import Contact from './Component/Contact/Contact';
 import Education from './Component/Education/Education';
 import Home from './Component/Home/Home';
-import Slidebar from './Component/Slidebar/Slidebar';
 import TechStack from './Component/TechStack/TechStack';
 import WorkExperience from './Component/WorkExperience/WorkExperience';
 import Project from './Component/Projects/Project';
+import Slidebar from './Component/Slidebar/Slidebar';
 import NavbarMobile from './Component/Slidebar/NavbarMobile';
+import Slidebar2 from './Component/Slidebar2/Slidebar';
+import NavbarMobile2 from './Component/Slidebar2/NavbarMobile';
 import VerNavBar from './Component/VerNavBar/VerNavBar';
 function App() {
   return (
     <>
+    <NavbarMobile2 />
+    {/* <Slidebar2 /> */}
     <VerNavBar/>
-    {/* <NavbarMobile />
-    <Slidebar /> */}
     <About />
     <WorkExperience />
     <TechStack />

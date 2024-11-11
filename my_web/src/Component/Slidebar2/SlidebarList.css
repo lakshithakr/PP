@@ -1,33 +1,69 @@
-/* NavBar.css */
+
+
+/* .navbar-items ul li{
+    color: white;
+    list-style-type: none;
+    cursor: pointer;
+    margin-top: 30px;
+    text-decoration: none;
+} */
+
+
+.navbar-items-only-icons ul li{
+    margin-top: 30px;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+.navbar-items-only-icons ul li svg{
+    margin-left: 10px;
+}
+
+
+/* .navbar-items ul li svg{
+    margin-right: 25px;
+    margin-left: 10px;
+}
+
+.navbar-items ul li a{
+    text-decoration: none;
+}
+
+.nav-item .active{
+    border-left: 2px solid yellow;
+    color: yellow;
+} */
+
+
 .navbar {
     height: 50px;
     position: fixed; /* Makes the navbar fixed */
     top: 0; /* Aligns it to the top */
     left: 0; /* Aligns it to the left */
     width: 100%; /* Full width */
-    background-color: #0e95ca; /* Background color */
+    background-color: #333; /* Background color */
     padding: 1rem; /* Padding for aesthetics */
     z-index: 1000; /* Ensures it is above other content */
   }
   
-  .nav-list {
+  .nav-item {
     list-style: none; /* Removes bullets */
     display: flex; /* Displays items in a row */
     gap: 1.5rem; /* Spacing between items */
   }
   
-  .nav-list li {
+  .nav-item li {
     color: white;
     display: inline; /* Keeps list items inline */
   }
   
-  .nav-list a {
+  .nav-item a {
     color: rgb(255, 255, 255); /* Text color */
     text-decoration: none; /* Removes underline */
     font-weight: bold; /* Makes text bold */
   }
   
-  .nav-list a:hover {
+  .nav-item a:hover {
     text-decoration: underline; /* Underline on hover */
   }
   
@@ -39,10 +75,4 @@
 .nav-item .active{
     border-left: 2px solid yellow;
     color: yellow;
-}
-
-@media (max-width:1000px) {
-    .navbar{
-        display: none;
-    }
 }

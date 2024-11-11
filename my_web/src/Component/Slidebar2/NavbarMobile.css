@@ -1,0 +1,57 @@
+.mobile-nav{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+
+.navbar-header{
+    width: 100%;
+    background-color: #0e95ca;
+    color: white;
+    padding: 5px;
+}
+
+
+.navbar-header p svg {
+    margin-left: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+@media (min-width:1000px) {
+    .mobile-nav{
+        display: none;
+    }
+}
+
+.mobile{
+
+    height: auto;
+    width: 210px;
+    background-color: #0e95ca;
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.mobile ul li{
+    color: white;
+    list-style: none;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 30px;
+
+}
+
+.mobile ul li a{
+    text-decoration: none;
+}
+
+.nav-item-mobile .active{
+    color: black;
+    background-color: aquamarine;
+    border-radius: 90px;
+    padding: 5px;
+    width: 100px;
+}
