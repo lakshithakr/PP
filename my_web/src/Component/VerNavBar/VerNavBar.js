@@ -7,7 +7,7 @@ import { MdOutlineBiotech } from "react-icons/md";
 const VerNavBar = () => {
   return (
     <nav className="navbar">
-        <ul className="nav-list">
+        <ul className="nav-list" id='navbar'>
             {/* <li ><Link to="about"><FcHome size={25} style={{ marginRight: '0.5rem' }}/>Home</Link></li>
             <li ><Link to="workexperience"><FcFactory size={25} style={{ marginRight: '0.5rem' }}/>Work Experience</Link></li>
             <li ><Link to="techstack"><MdOutlineBiotech size={25} color="orange" style={{ marginRight: '0.5rem' }}/>Tech Stack</Link></li>

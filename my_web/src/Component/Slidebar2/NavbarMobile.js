@@ -20,7 +20,7 @@ function NavbarMobile(){
                     <div className='mobile'>
                     <ul>
                                 <li className="nav-item-mobile">
-                                    <Link to="home"                             
+                                    <Link to="about"                             
                                         spy={true}
                                         smooth={true}
                                         duration={100}
@@ -29,7 +29,7 @@ function NavbarMobile(){
                                     </Link> 
                                 </li>
         
-                                <li className="nav-item-mobile">
+                                {/* <li className="nav-item-mobile">
         
                                     <Link to="about"
                                         spy={true}
@@ -39,7 +39,7 @@ function NavbarMobile(){
                                     >
                                     <FcPortraitMode size={25}/>About
                                     </Link>      
-                                </li>
+                                </li> */}
         
         
                                 <li className="nav-item-mobile">

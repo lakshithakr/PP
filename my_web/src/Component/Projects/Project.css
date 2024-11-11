@@ -1,5 +1,4 @@
 .project-list{
-    margin: 10px;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -63,5 +62,9 @@
 
 .description{
     margin: 5px;
+}
+
+.project{
+    margin-top: 75px;
 }
 

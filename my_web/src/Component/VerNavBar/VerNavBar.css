@@ -5,7 +5,7 @@
     top: 0; /* Aligns it to the top */
     left: 0; /* Aligns it to the left */
     width: 100%; /* Full width */
-    background-color: #0e95ca; /* Background color */
+    background-color: #C6E7FF; /* Background color */
     padding: 1rem; /* Padding for aesthetics */
     z-index: 1000; /* Ensures it is above other content */
   }
