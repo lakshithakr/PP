@@ -1,6 +1,10 @@
 .workexperience-section{
     margin-top: 75px;
+    align-items: center;
+    justify-content: center;
 }
+
+
 
 .timeline-section{
     margin-top: 20px;

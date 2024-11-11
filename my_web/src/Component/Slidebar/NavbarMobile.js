@@ -106,6 +106,9 @@ function NavbarMobile(){
         
                                     </Link>     
                                 </li>
+                                <li className="nav-item-mobile">
+                                    <div>HI</div>   
+                                </li>
         
         
                     </ul>

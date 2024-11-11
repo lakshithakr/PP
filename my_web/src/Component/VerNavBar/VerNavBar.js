@@ -4,6 +4,7 @@ import {Link} from "react-scroll"
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { FcHome,FcPortraitMode,FcFactory,FcGraduationCap,FcTodoList,FcPhone } from "react-icons/fc";
 import { MdOutlineBiotech } from "react-icons/md";
+import myCV from "./CV.pdf";
 const VerNavBar = () => {
   return (
     <nav className="navbar">
@@ -20,6 +21,15 @@ const VerNavBar = () => {
             <li ><Link to="education">Education</Link></li>
             <li ><Link to="projects">Projects</Link></li>
             <li ><Link to="contact">Contact</Link></li>
+        </ul>
+        <ul className='nav-list2'>
+          <li>
+          <div className='resume'>
+            <a href={myCV} download='Lakshitha_CV.pdf'>
+              Get Resume
+            </a>
+          </div>
+          </li>
         </ul>
   </nav>
   )

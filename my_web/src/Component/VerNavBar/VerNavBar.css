@@ -13,7 +13,7 @@
   .nav-list {
     list-style: none; /* Removes bullets */
     display: flex; /* Displays items in a row */
-    gap: 1.5rem; /* Spacing between items */
+    gap: 3.5rem; /* Spacing between items */
   }
   
   .nav-list li {
@@ -45,4 +45,34 @@
     .navbar{
         display: none;
     }
+}
+
+.nav-list2 {
+  list-style: none; /* Removes bullets */
+  display: flex; /* Displays items in a row */
+  gap: 2.5rem; /* Spacing between items */
+}
+
+.resume a{
+  text-decoration: none;
+  color: white;
+}
+
+.resume{
+  background-color: rgb(149, 138, 245);
+  text-align: center;
+  width: 120px;
+  padding : 1px;
+  border-radius: 90px;
+  cursor: pointer;
+  border: 2px solid white;
+  font-size: 19px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.resume:hover{
+  background-color: rgb(103, 241, 103);
+  width: 125px;
+  color: rgb(57, 231, 80);
+  transition-duration: 0.5s;
 }

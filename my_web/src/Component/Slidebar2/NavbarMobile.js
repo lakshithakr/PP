@@ -5,6 +5,7 @@ import { FcHome,FcPortraitMode,FcFactory,FcGraduationCap,FcTodoList,FcPhone } fr
 import { MdOutlineBiotech } from "react-icons/md";
 import {Link} from "react-scroll"
 import { useState } from 'react'
+import myCV from "./CV.pdf";
 function NavbarMobile(){
     const [open,setOpen]=useState(false);
     const handleClick= () => {
@@ -105,6 +106,13 @@ function NavbarMobile(){
                                     <FcPhone size={25}/>Contact
         
                                     </Link>     
+                                </li>
+                                <li className="nav-item-mobile">
+                                    <div className='resume-btn'>
+                                        <a href={myCV} download='Lakshitha_CV.pdf'>
+                                        Get Resume
+                                        </a>
+                                    </div>    
                                 </li>
         
         

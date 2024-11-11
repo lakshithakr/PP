@@ -55,3 +55,16 @@
     padding: 5px;
     width: 100px;
 }
+
+.resume-btn{
+    background-color: rgb(173, 240, 153);
+    text-align: center;
+    width: 120px;
+    padding : 1px;
+    border-radius: 90px;
+    cursor: pointer;
+    border: 2px solid white;
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+  
